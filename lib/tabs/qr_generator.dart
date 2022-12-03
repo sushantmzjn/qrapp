@@ -15,7 +15,7 @@ class _QrGeneratorState extends State<QrGenerator> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.deepPurple[100],
+      color: Colors.deepPurple[200],
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,

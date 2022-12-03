@@ -11,7 +11,7 @@ class _QrScannerState extends State<QrScanner> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.blueGrey,
+      color: Colors.deepPurple[200],
         child: Center(child: Text('2st tab'))
     );
   }

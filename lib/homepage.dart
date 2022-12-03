@@ -12,9 +12,10 @@ class HomePage extends StatelessWidget {
       child: Scaffold(
         extendBodyBehindAppBar: true,
         appBar: AppBar(
+          backgroundColor: Colors.deepPurple.withOpacity(.15),
           title: const Text('QR Scanner/Generator'),
           centerTitle: true,
-          elevation: 1,
+          elevation: 0.5,
           actions: [
             IconButton(
               onPressed: () {
