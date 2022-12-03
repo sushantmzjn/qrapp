@@ -44,10 +44,10 @@ class _QrGeneratorState extends State<QrGenerator> {
               maxLines: 1,
               style: const TextStyle(
                 color: Colors.black,
-                fontSize: 24.0,
+                fontSize: 18.0,
               ),
               textInputAction: TextInputAction.done,
-              decoration:  InputDecoration(
+              decoration: InputDecoration(
                   border: InputBorder.none,
                   // icon: Icon(Icons.edit),
                   prefixIcon: Icon(
@@ -55,9 +55,9 @@ class _QrGeneratorState extends State<QrGenerator> {
                     size: 20.0,
                     color: Colors.deepPurple,
                   ),
-                  hintStyle: TextStyle(fontSize: 16.0, color: Colors.deepPurple[300]),
-                  hintTextDirection: TextDirection.ltr,
-                  hintText: "Input text to generate qr codes"),
+                  hintStyle:
+                      TextStyle(fontSize: 16.0, color: Colors.deepPurple[300]),
+                  hintText: "Input text to generate QR"),
               onChanged: (value) {
                 setState(() {
                   data = value;
