@@ -15,7 +15,7 @@ class _QrGeneratorState extends State<QrGenerator> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.deepPurple[200],
+      color: const Color(0xff6998ab),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -23,7 +23,7 @@ class _QrGeneratorState extends State<QrGenerator> {
           Center(
             child: QrImage(
               data: data,
-              foregroundColor: Colors.deepPurple[600],
+              foregroundColor: const Color(0xff000000),
               backgroundColor: Colors.transparent,
               size: 250.0,
             ),
@@ -53,7 +53,7 @@ class _QrGeneratorState extends State<QrGenerator> {
                   prefixIcon: Icon(
                     Icons.edit,
                     size: 20.0,
-                    color: Colors.deepPurple,
+                    color: Color(0xff6998ab),
                   ),
                   hintStyle:
                       TextStyle(fontSize: 16.0, color: Colors.deepPurple[300]),
